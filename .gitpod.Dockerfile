@@ -30,8 +30,8 @@ RUN sudo apt update && sudo apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy everything to our workspace
-COPY . /workspace/GitGram
-WORKDIR /workspace/GitGram
+COPY . /workspace/GitHub-Notification 
+WORKDIR /workspace/GitHub-Notification 
 
 # Install requirements
 RUN sudo pip3 install -U -r requirements.txt
