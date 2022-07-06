@@ -34,7 +34,7 @@
 
     "PROJECT_NAME": {
 
-      "description": "A name for your GitGram Bot Project",
+      "description": "A name for your GitHub-Notification Bot Project",
 
       "required": true,
 
